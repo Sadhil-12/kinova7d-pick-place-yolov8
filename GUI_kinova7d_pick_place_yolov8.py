@@ -5,8 +5,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 
-# VENV_PYTHON_EXE = sys.executable
-VENV_PYTHON_EXE = r"C:\Users\sadhil\Documents\VS CODE\Machine Learning\ml_env\Scripts\python.exe"
+VENV_PYTHON_EXE = r"[Your path here]\ml_env\Scripts\python.exe"
 PYTHON_SCRIPT = PROJECT_ROOT / "bottle_tracking_and_saving" / "homography_main.py"
 CPP_EXE = PROJECT_ROOT / "build" / "Debug" / "kinova_app.exe"
 
