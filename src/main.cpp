@@ -109,7 +109,7 @@ int main() {
     arm.PickPlaceVertical(
         x_target_m,   // x (meters)
         y_target_m,   // y (meters)
-        0.05 // z (meters) 0.0 is 1cm off table with fingers closed
+        0.15 // z (meters) 0.0 is 1cm off table with fingers closed
     );
 
     arm.Close();
