@@ -7,7 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 
 VENV_PYTHON_EXE = r"[Your path here]\ml_env\Scripts\python.exe"
 PYTHON_SCRIPT = PROJECT_ROOT / "bottle_tracking_and_saving" / "homography_main.py"
-CPP_EXE = PROJECT_ROOT / "build" / "Debug" / "kinova_app.exe"
+CPP_EXE = PROJECT_ROOT / "build" / "Release" / "kinova_app.exe"
 
 def run_python_opencv():
     subprocess.Popen(
